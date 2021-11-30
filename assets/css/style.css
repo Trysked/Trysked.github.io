@@ -1,0 +1,130 @@
+/*0a1417, 032e42, 2b6684, 012e67*/
+
+@import url('https://fonts.google.com');
+
+
+/*----------landing--------*/
+.profil {
+    background-color: #3b90ff;
+}
+
+.profil-box {
+    width: 450px;
+    height: 450px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 40px;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.profil-pict {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #00aeffd5;
+    border-width: 8px;
+    border-radius: 50%;
+}
+
+h1{
+    font-family:'Times New Roman';
+    color: red;
+    letter-spacing: 6;
+    font-size: 100;
+}
+
+.line-break {
+    width: 160px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+
+.ctf {
+    margin-top: 10px;
+}
+.sosial-icons {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.sosial-icons a {
+    color: white;
+}
+
+.sosial-icons a:hover {
+    color: aqua;
+}
+
+.btn {
+    font-size: 15px;
+    margin: 25px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.success {
+    background-color: #00aeffd5;
+}
+/*--------------------------------*/
+
+
+header {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+body{
+    background-color: rgb(10, 16, 34);
+}
+
+.main p{
+    color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(13, 38, 70);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.sidenav a{
+    text-align: center;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #7c6b6b;
+    display: block;
+}
+
+.sidenav a:hover{
+    counter-reset: yellow;
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.main h2{
+    color: red;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }}
